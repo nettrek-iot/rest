@@ -168,7 +168,7 @@ app.use('/set/:id/:button/:state', (req, res, next) => {
             res.status(404).send(`Record with id ${id} not found`);
         }
     } else {
-        next();
+        next(); 
     }
 });
 
